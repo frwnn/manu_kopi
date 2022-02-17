@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "882957870174",
+    "project_id": "manu-kopi-project",
+    "storage_bucket": "manu-kopi-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882957870174:android:92e1cb3476c739f9edc0cf",
+        "android_client_info": {
+          "package_name": "com.mkp.m_k_p_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882957870174-uprsv7aq6obmc8c5rc79nmojl3rh0dd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mkp.m_k_p_firebase",
+            "certificate_hash": "618516a8bb907b6c43a86b27e61663a0016cf80d"
+          }
+        },
+        {
+          "client_id": "882957870174-dcpf9jd7edr8mq2a3fqngqivobn7pvgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmO3vOJllShmku8Tldu28nPyf0nS8XK1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882957870174-dcpf9jd7edr8mq2a3fqngqivobn7pvgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
