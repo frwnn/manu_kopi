@@ -19,6 +19,11 @@ class LoginView extends GetView<AuthController> {
           padding: const EdgeInsets.all(25),
           child: Column(
             children: [
+              Container(
+                height: 300,
+                width: 200,
+                color: Colors.grey,
+              ),
               TextField(
                   controller: emailC,
                   decoration: InputDecoration(labelText: "Email")),
