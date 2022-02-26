@@ -4,7 +4,7 @@ import 'package:m_k_p_firebase/app/controllers/auth_controller.dart';
 import 'package:m_k_p_firebase/app/routes/app_pages.dart';
 
 class LoginView extends GetView<AuthController> {
-  final emailC = TextEditingController(text: "fajar@gmail.com");
+  final emailC = TextEditingController(text: "greensand.up@gmail.com");
   final passC = TextEditingController(text: "112233");
 
   final authC = Get.find<AuthController>();
@@ -25,6 +25,16 @@ class LoginView extends GetView<AuthController> {
               TextField(
                   controller: passC,
                   decoration: InputDecoration(labelText: "Password")),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text("Lupa Password?"),
+                  TextButton(
+                      onPressed: () => Get.toNamed(Routes.RESET_PASSWORD),
+                      child: Text("Reset Password"))
+                ],
+              ),
               SizedBox(height: 50),
               ElevatedButton(
                   onPressed: () => authC.login(emailC.text, passC.text),
